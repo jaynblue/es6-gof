@@ -1,6 +1,6 @@
 {
   "name": "es6-gof",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "An ECMAScript 2015 implementation of a DoFactory design patterns examples.",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,7 @@
   "bugs": {
     "url": "https://github.com/vinifig/es6-gof/issues"
   },
-  "homepage": "https://github.com/vinifig/es6-gof#readme"
+  "tonicExampleFilename": "example.js",
+  "homepage": "https://github.com/vinifig/es6-gof#readme",
+  "engines" : { "node" : ">=6" }
 }
