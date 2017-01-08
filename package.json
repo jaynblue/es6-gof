@@ -1,11 +1,26 @@
 {
   "name": "es6-gof",
   "version": "1.0.0",
-  "description": "",
+  "description": "An ECMAScript 2015 implementation of a DoFactory design patterns examples.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Vinicius Figueiredo Rodrigues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinifig/es6-gof.git"
+  },
+  "keywords": [
+    "es6",
+    "gof",
+    "design",
+    "pattern",
+    "patterns"
+  ],
+  "bugs": {
+    "url": "https://github.com/vinifig/es6-gof/issues"
+  },
+  "homepage": "https://github.com/vinifig/es6-gof#readme"
 }
