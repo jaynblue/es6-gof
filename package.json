@@ -4,7 +4,9 @@
   "description": "An ECMAScript 2015 implementation of a DoFactory design patterns examples.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test-unit && npm run test-e2e",
+    "test-e2e": "mocha tests/e2e/*",
+    "test-unit": "mocha tests/unit/*"
   },
   "author": "Vinicius Figueiredo Rodrigues",
   "license": "MIT",
@@ -24,5 +26,14 @@
   },
   "tonicExampleFilename": "example.js",
   "homepage": "https://github.com/vinifig/es6-gof#readme",
-  "engines" : { "node" : ">=6" }
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
+    "mocha-sinon": "^1.1.6",
+    "sinon": "^1.17.7"
+  }
 }
