@@ -1,4 +1,5 @@
 # ES6 Gang of Four
+[![Build Status](https://api.travis-ci.org/vinifig/es6-gof.svg?branch=master)](https://travis-ci.org/vinifig/es6-gof)
 
 An `ECMAScript 2015` implementation of a [DoFactory design patterns examples](http://dofactory.com/javascript/design-patterns).
 
