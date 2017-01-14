@@ -21,3 +21,5 @@ class CompositeRunner{
     root.addChild(right);
   }
 }
+
+module.exports = CompositeRunner;
