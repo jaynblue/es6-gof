@@ -11,7 +11,7 @@ class Component{
   }
 
   addLeaf(leaf){
-    this[leafs].push(child)
+    this[leafs].push(leaf)
   }
 
   removeLeaf(leaf){
